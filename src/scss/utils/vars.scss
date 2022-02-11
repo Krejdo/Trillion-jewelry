@@ -1,0 +1,34 @@
+$darkShadeBase:       #1F2041;
+$purpleBase:          #BC9CFF;
+$greenBase:           #6FCF97;
+$white:               #ffffff;
+
+$purpleGradient:      #8BA4F9;
+$greenGradient:       #66D2EA;
+
+$boxShadowCard:       #cccccc;
+
+//===================================================//
+
+@function color($name) {
+  @return var(--color-#{$name});
+}
+
+:root {
+  --color-primary: #{$darkShadeBase};
+  --color-primary-75: #{rgba($darkShadeBase, .75)};
+  --color-primary-50: #{rgba($darkShadeBase, .5)};
+  --color-primary-25: #{rgba($darkShadeBase, .25)};
+  --color-primary-10: #{rgba($darkShadeBase, .1)};
+  --color-primary-5:  #{rgba($darkShadeBase, .05)};
+}
+
+//===================================================//
+
+$boldFont:     'Conv_Montserrat-Bold', sans-serif;
+$regularFont:  'Conv_Montserrat-Regular', sans-serif;
+
+$fontSizeH1:   1.5rem;
+$fontSizeH2:   1.1875rem;
+$fontSizeH3:   .75rem;
+$fontSizeBody: .875rem;

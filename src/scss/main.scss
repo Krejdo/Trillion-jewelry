@@ -1,0 +1,19 @@
+@import "./utils/normalize.scss";
+// @import "./utils/fonts.scss";
+@import "./utils/vars.scss";
+@import "./utils/base.scss";
+
+
+@import "../pug/modules/header/header.scss";
+@import "../pug/modules/footer/footer.scss";
+
+
+//========================blocks===========================//
+
+//=========================================================//
+
+
+@import "../pages/Colors&Type/Colors&Type.scss";
+@import "../pages/FormElements/FormElements.scss";
+@import "../pages/Cards/Cards.scss";
+@import "../pages/Headers&Footers/Header&Footers.scss";
